@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">鬼故事大全</string>
+    <string name="content_last_volume">上一部分</string>
+    <string name="content_next_volume">下一部分</string>
+    <string name="content_last_chapter">上一篇</string>
+    <string name="content_next_chapter">下一篇</string>
+    <string name="content_chapters">目录</string>
+    <string name="content_home">主页</string>
+    <string name="content_setting">阅读设置</string>
+    <string name="content_more">更多</string>
+    <string name="content_favorite">添加书签</string>
+    <string name="content_all_favorite">查看书签</string>
+    <string name="content_advice">意见</string>
+    <string name="content_about">关于</string>
+    <string name="alert_exit">退出</string>
+    <string name="alert_msg">确定要退出吗?</string>
+    <string name="alert_title">提示</string>
+    <string name="alert_sure">确认</string>
+    <string name="alert_cancel">取消</string>
+    
+    <string name="setting_title">阅读设置</string>
+    <string name="setting_basic">基本设置</string>
+    <string name="setting_nightMode">夜间模式</string>
+    <string name="setting_nightMode_on">已启用</string>
+    <string name="setting_nightMode_off">未启用</string>
+    <string name="setting_textSize">文字大小</string>
+    <string name="setting_reset">恢复默认设置</string>
+    <string name="setting_reset_yes_no">是否真的要恢复默认设置?</string>
+    <string name="setting_reset_success">恢复默认设置成功</string>
+    <string name="setting_fontscolor">文字颜色</string>
+    <string name="setting_contentBgColor">背景色</string>
+</resources>

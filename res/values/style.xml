@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="Animation">
+		<item name="android:activityOpenEnterAnimation">@anim/translucent_enter</item>
+		<item name="android:activityOpenExitAnimation">@anim/translucent_exit</item>
+		<item name="android:activityCloseEnterAnimation">@anim/translucent_enter</item>
+		<item name="android:activityCloseExitAnimation">@anim/translucent_exit</item>
+	</style>
+	<style name="AnimationTheme" parent="android:Theme.NoTitleBar">
+		<item name="android:windowAnimationStyle">@style/Animation</item>
+	</style>
+	<style name="AnimationTheme2" parent="android:Theme.NoTitleBar.Fullscreen">
+		<item name="android:windowAnimationStyle">@style/Animation</item>
+	</style>
+</resources>

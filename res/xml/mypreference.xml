@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:key="settings"
+  	android:title="@string/setting_title">
+	<PreferenceCategory
+		android:key="basic"
+		android:title="@string/setting_basic">
+	  	<CheckBoxPreference
+			android:key="nightMode"
+			android:title="@string/setting_nightMode"
+			android:summaryOn="@string/setting_nightMode_on"
+			android:summaryOff="@string/setting_nightMode_off" />
+		<ListPreference
+			android:key="textSize"
+			android:title="@string/setting_textSize"
+			android:dialogTitle="@string/setting_textSize"
+			android:entries="@array/textSize_entry"
+			android:entryValues="@array/textSize_entry_value"
+			android:defaultValue="0" />
+	    <ListPreference
+			android:key="contentBgColor"
+			android:title="@string/setting_contentBgColor"
+			android:dialogTitle="@string/setting_contentBgColor"
+			android:entries="@array/content_bg_entry"
+			android:entryValues="@array/content_bg_entry_value"
+			android:defaultValue="0" />
+	    <appbookmaster.base.ColorPickerPreference
+            android:key="colorpiker" 
+            android:persistent="true" 
+            android:title="@string/setting_fontscolor"
+            android:dialogTitle="@string/setting_fontscolor" 
+            android:summary="@string/setting_fontscolor" />
+	</PreferenceCategory>
+	<PreferenceCategory
+		android:key="reset_pref"
+		android:title="@string/setting_reset">
+		<Preference 
+			android:key="reset"
+			android:title="@string/setting_reset" />
+	</PreferenceCategory>
+</PreferenceScreen>

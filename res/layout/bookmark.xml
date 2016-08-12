@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#111111">
+  <TextView android:id="@+id/title" 
+	android:layout_width="fill_parent"
+	android:layout_height="40dip"
+	android:layout_marginTop="5dip"
+    android:layout_marginLeft="5dip"
+    android:layout_marginRight="5dip"
+	android:gravity="center"
+	android:textSize="25sp"
+	android:textColor="#F0F0F0"
+	android:textStyle="bold"
+	android:text="我的书签"
+	android:background="@drawable/setbar_bg"
+	/>
+  <ListView android:id="@+id/bookmarklistview"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dip"
+    android:layout_marginBottom="5dip"
+    android:layout_marginLeft="5dip"
+    android:layout_marginRight="5dip"
+    android:listSelector="#0000"
+    android:divider="#0000"
+    android:dividerHeight="2dip"
+    android:fadingEdge="none"
+    android:scrollingCache="false"
+    />	
+</LinearLayout>

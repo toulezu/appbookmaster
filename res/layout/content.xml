@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content_layout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+  <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"  
+    android:layout_width="fill_parent"
+    android:background="@drawable/content_title_bg"
+    android:gravity="top"
+    >
+    <LinearLayout android:id="@+id/content_status"
+      android:orientation="vertical"
+      android:layout_width="wrap_content" 
+	  android:layout_height="wrap_content"
+	  android:layout_alignParentLeft="true">
+	  <TextView android:id="@+id/_curcatalog" 
+	    android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:textSize="12sp" 
+		/>
+	  <TextView android:id="@+id/_status" 
+	    android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:textSize="12sp" 
+		/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/content_control"
+      android:orientation="horizontal"
+      android:layout_width="wrap_content" 
+	  android:layout_height="wrap_content"
+	  android:layout_alignParentRight="true">
+	    <ImageView android:id="@+id/content_last_chapter"
+	      android:layout_width="wrap_content"
+		  android:layout_height="wrap_content"
+		  android:layout_centerVertical="true"
+		  android:layout_marginRight="10dip"
+		  android:background="@drawable/content_btn_style"
+		  android:src="@drawable/content_last_chapter"
+		  />
+		<ImageView android:id="@+id/content_next_chapter"
+	      android:layout_width="wrap_content"
+		  android:layout_height="wrap_content"
+		  android:layout_centerVertical="true"
+		  android:layout_marginRight="10dip"
+		  android:background="@drawable/content_btn_style"
+		  android:src="@drawable/content_next_chapter"
+		  />
+	    <ImageView android:id="@+id/content_chapters"
+	      android:layout_width="wrap_content"
+		  android:layout_height="wrap_content"
+		  android:layout_centerVertical="true"
+		  android:layout_marginRight="10dip"
+		  android:background="@drawable/content_btn_style"
+		  android:src="@drawable/content_chapter"
+		  />
+		<ImageView android:id="@+id/content_home"
+	      android:layout_width="wrap_content"
+		  android:layout_height="wrap_content"
+		  android:layout_centerVertical="true"
+		  android:background="@drawable/content_btn_style"
+		  android:src="@drawable/content_home"
+		  />
+	  </LinearLayout>
+  </RelativeLayout>
+  <LinearLayout android:id="@+id/adViewLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+   />
+  <appbookmaster.view.ScrollTextView android:id="@+id/_content"
+    android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="5dip"
+	android:layout_marginBottom="5dip"
+	android:layout_marginLeft="5dip"
+    android:layout_marginRight="5dip"
+	android:gravity="center_vertical"
+	android:scrollbars="vertical"
+	/>
+</LinearLayout>

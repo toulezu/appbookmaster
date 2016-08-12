@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="textSize_entry">
+	    <item>正常</item>
+		<item>小</item>
+		<item>中</item>
+		<item>大</item>
+	</string-array>
+	<string-array name="textSize_entry_value">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+	</string-array>
+	<string-array name="content_bg_entry">
+		<item>默认</item>
+		<item>深色</item>
+		<item>蓝色</item>
+		<item>嫩灰色</item>
+		<item>淡紫色</item>
+		<item>玫瑰</item>
+		<item>暗黄色</item>
+		<item>芥末</item>
+		<item>薄荷绿</item>
+		<item>海泡石</item>
+		<item>幽暗黄昏</item>
+		<item>桃花心木色</item>
+		<item>茄紫色</item>
+	</string-array>
+	<string-array name="content_bg_entry_value">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+		<item>11</item>
+		<item>12</item>
+	</string-array>
+</resources>

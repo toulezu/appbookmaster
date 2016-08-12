@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="longghoststory2.main"
+      android:versionCode="3"
+      android:versionName="3.0">
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="21" />
+	
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+	
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name="appbookmaster.main.AppBookMasterActivity"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="appbookmaster.base.BaseActivity" />
+
+		<activity android:name="appbookmaster.main.AppBookMasterCatlogActivity"
+					 android:screenOrientation="portrait"
+                     android:theme="@style/AnimationTheme" />
+                     
+        <activity android:name="appbookmaster.main.AppBookMasterBookMarkActivity"
+        			 android:screenOrientation="portrait"
+                     android:theme="@style/AnimationTheme" />
+        
+        <activity android:name="appbookmaster.main.AppBookMasterChapterActivity"
+        			 android:screenOrientation="portrait"
+                     android:theme="@style/AnimationTheme" />
+        
+        <activity android:name="appbookmaster.main.AppBookMasterContentActivity"
+        			 android:screenOrientation="portrait"
+                     android:theme="@style/AnimationTheme2" />
+        
+        <activity android:name="appbookmaster.base.AppBookMasterPreferenceActivity" 
+        			 android:screenOrientation="portrait"
+                     android:theme="@style/AnimationTheme" />
+                     
+        <activity android:name="appbookmaster.oauth.OAuthActivity" 
+        			 android:screenOrientation="portrait"
+                     android:theme="@style/AnimationTheme">
+                     
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="myapp" android:host="AuthActivity" />
+            </intent-filter>
+            
+        </activity>
+        
+        <activity android:configChanges="keyboard|keyboardHidden|orientation" android:name="net.youmi.android.AdActivity" />
+        <meta-data android:name="YOUMI_CHANNEL" android:value="10020" />
+        
+        <meta-data android:name="gfan_statistics_appkey" android:value="34208A0C2B2F48B9F99BD06E3B8C698D" />
+        <meta-data android:name="gfan_cpid" android:value="gfan.com" />
+        
+        <meta-data android:name="BaiduMobAd_CHANNEL" android:value="Baidu Market" />
+		<meta-data android:name="BaiduMobAd_STAT_ID" android:value="a5d5ae2578" />
+        
+    </application>
+</manifest>
