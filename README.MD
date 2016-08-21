@@ -23,7 +23,10 @@ v3.0
 Android 2.2 以上版本
 
 ## 分辨率 
-320*480 480*640 480*800 480*854 540*960 640*960
+`320*480` `480*640` `480*800` `480*854` `540*960` `640*960`
+
+## 下载地址
+[鬼故事精选APK下载](https://github.com/toulezu/appbookmaster/blob/master/dist/appbookmaster_ghoststory_3_0.apk)
 
 ## 截图预览
 ![appbookmaster pic](http://7xt8a6.com1.z0.glb.clouddn.com/appbookmaster/1.jpg)
@@ -36,9 +39,6 @@ Android 2.2 以上版本
 ![appbookmaster pic](http://7xt8a6.com1.z0.glb.clouddn.com/appbookmaster/7.png)
 ![appbookmaster pic](http://7xt8a6.com1.z0.glb.clouddn.com/appbookmaster/8.png)
 ![appbookmaster pic](http://7xt8a6.com1.z0.glb.clouddn.com/appbookmaster/9.png)
-
-## 下载地址
-[]()
 
 ## 开发平台
 
